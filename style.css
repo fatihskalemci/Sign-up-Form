@@ -1,0 +1,26 @@
+body {
+  display: flex;
+}
+
+.column {
+  height: 100vh;
+}
+
+.left-side {
+  background-image: url(image/background_signup.jpg);
+  background-size: cover;
+  background-position: center; /* Centers the image before cropping */
+  background-repeat: no-repeat;
+  flex: 3;
+}
+
+.right-side {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.row {
+  flex: 1;
+}
